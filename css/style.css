@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+
+nav ul{
+  list-style: none;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.flex-child a{
+  font-size: 1.2rem;
+}
+
+p{
+  font-size: 1.1rem;
+}
+
