@@ -20,6 +20,22 @@ p{
   font-size: 1.1rem;
 }
 
+img{
+  max-width: 250px;
+}
+
 #pronouns{
   font-style: italic;
+}
+
+.text-wrap-r{
+  clear: left;
+  float: right;
+  margin: 10px;
+}
+
+.text-wrap-l{
+  clear: right;
+  float: left;
+  margin: 10px;
 }
