@@ -23,13 +23,14 @@ nav ul{
 }
 
 h1{
-  font-size: 2rem;
+  font-size: 4rem;
   text-justify: center;
 }
 
-.h2-projects{
+h2{
   font-size: 1.7rem;
 }
+
 
 p{
   font-size: 1.2rem;
@@ -40,7 +41,12 @@ img{
 }
 
 #pronouns{
+  font-size: 1.5rem;
   font-style: italic;
+}
+
+.border-secondary {
+  border-width: 3px !important;
 }
 
 @media (min-width: 768px){
@@ -55,6 +61,8 @@ img{
     float: left;
     margin: 10px;
   }
+
+ 
 }
 
 @media (min-width: 576px) {
@@ -66,9 +74,13 @@ img{
 }
  
 @media (max-width: 576px){
-  .profile-image{
-    margin: auto;
+  .general-image{
+    margin-bottom: 1em;
     display: block;
+    text-align: center;
+    }
+    #pronouns{
+      text-align: center;
     }
 }
 
