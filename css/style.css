@@ -27,8 +27,35 @@ h1{
   text-justify: center;
 }
 
+h1#test-animation{
+  font-size: 4rem;
+  color: white; 
+  padding: 2.5rem 0;
+}
+
+@keyframes change{
+  from{background-color: black;}
+  to{background-color: purple;}
+  
+}
+
+#flex-test-animation{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+  animation: change 3s infinite;
+  animation-direction: alternate;
+}
+
+
+
 h2{
   font-size: 1.7rem;
+}
+
+h3{
+  font-size: 1.4rem;
 }
 
 
@@ -47,6 +74,41 @@ img{
 
 .border-secondary {
   border-width: 3px !important;
+}
+
+
+#project-cards:hover{
+  animation: color-fade .5s;
+  animation-fill-mode: forwards;
+}
+
+
+#home-page{
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 90vh;
+  background-color: black;
+  
+  border: solid black 2px;
+
+}
+
+
+
+h1#home{
+  align-self: center;
+  font-size: 4rem;
+  color: purple;
+  text-align: center;
+}
+
+
+
+/* keyframes */
+@keyframes color-fade{
+  to{background-color: lightcyan}
 }
 
 @media (min-width: 768px){
