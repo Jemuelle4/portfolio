@@ -77,10 +77,15 @@ img{
   border-width: 3px !important;
 }
 
+#project-cards {
+  background-color: #fcfcfc;
+  transition:  0.4s ease-in-out;
+}
 
 #project-cards:hover{
-  animation: color-fade .5s;
-  animation-fill-mode: forwards;
+  background-color: #F6EAFF;
+  /*animation: color-fade .5s;
+  animation-fill-mode: forwards-b; */
 }
 
 
@@ -109,7 +114,7 @@ h1#home{
 
 /* keyframes */
 @keyframes color-fade{
-  to{background-color: lightcyan}
+  to{background-color: rgba(205, 143, 255, 0.815)}
 }
 
 @media (min-width: 768px){
