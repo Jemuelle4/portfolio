@@ -17,10 +17,21 @@ nav ul{
   font-size: 1.2rem;
 }
 
-.flex-container{
+.flex-card{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.card-body{
+  max-width: 45%;
+}
+
+.border{
+  border: 1px solid black;
+}
+
+.mt-15{
+  margin-top: 75px;
 }
 
 h1{
@@ -52,11 +63,11 @@ h1#test-animation{
 
 
 h2{
-  font-size: 1.7rem;
+  font-size: 2.1rem;
 }
 
 h3{
-  font-size: 1.4rem;
+  font-size: 1..7rem;
 }
 
 
@@ -64,8 +75,12 @@ p{
   font-size: 1.2rem;
 }
 
+a{
+  font-size: 1.2rem;
+}
+
 img{
-  max-width: 350px;
+  max-width: 250px;
 }
 
 #pronouns{
