@@ -1,7 +1,9 @@
 *{
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
+/* NAVBAR */ 
 nav ul{
   list-style: none;
 }
@@ -14,12 +16,25 @@ nav ul{
 
 .flex-child-nav a{
   font-size: 1.2rem;
+  color: #8357F5;
+  font-weight:600;
 }
 
-.flex-container{
+.flex-card{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.card-body{
+  max-width: 45%;
+}
+
+.border{
+  border: 1px solid black;
+}
+
+.mt-15{
+  margin-top: 75px;
 }
 
 h1{
@@ -27,13 +42,47 @@ h1{
   text-justify: center;
 }
 
-h2{
-  font-size: 1.7rem;
+h1#test-animation{
+  font-size: 4rem;
+  color: white; 
+  padding: 2.5rem 0;
+}
+
+@keyframes change{
+  from{background-color: black;}
+  to{background-color: purple;}
+  
+}
+
+#flex-test-animation{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+  animation: change 3s infinite;
+  animation-direction: alternate;
 }
 
 
+
+h2{
+  font-size: 2.1rem;
+}
+
+h3{
+  font-size: 1.7rem;
+}
+
 p{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+
+a{
+  font-size: 1.1rem;
+}
+
+li{
+  font-size: 1.1rem;
 }
 
 img{
@@ -49,6 +98,45 @@ img{
   border-width: 3px !important;
 }
 
+
+#project-cards:hover{
+  animation: color-fade .5s;
+  animation-fill-mode: forwards;
+}
+
+
+#home-page{
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 90vh;
+  background-color: black;
+  
+  border: solid black 2px;
+
+}
+
+/* UTILITIES */
+#HMW{
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+h1#home{
+  align-self: center;
+  font-size: 4rem;
+  color: purple;
+  text-align: center;
+}
+
+
+
+/* keyframes */
+@keyframes color-fade{
+  to{background-color: lightcyan}
+}
+
 @media (min-width: 768px){
   .text-wrap-r{
     clear: left;
@@ -62,6 +150,13 @@ img{
     margin: 10px;
   }
 
+  .container{
+    max-width: 50% !important;
+  }
+
+  .container .width-80{
+    max-width: 80%;
+  }
  
 }
 
