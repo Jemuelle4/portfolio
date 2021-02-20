@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet"> 
+
+  <script src="https://kit.fontawesome.com/b659826940.js" crossorigin="anonymous"></script>
+
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Two Do</title>
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+    <div class="containter">
+      <ul class="flex-container-nav">
+        <li class="flex-child-nav m-2 mx-3"><a href="../index.html">Home</a></li>
+        <li class="flex-child-nav m-2 mx-3"><a href="../pages/about.html">About</a></li>
+      </ul>
+    </div>
+    
+  </nav>
+
+  <main>
+      <section class="container">
+        <h1 class="text-center">TWO DO</h1>
+        <div class="d-flex justify-content-center mt-4">
+          <p class="mx-4"><i class="fas fa-clock mr-2"></i>24 hours</p>
+          <p class="mx-4"><i class="fas fa-users mr-2"></i>4 people</p>
+        </div>
+      </section>
+  
+      <section class="container mt-5">
+        <p>Two Do is a project made during the Protothon hosted by UW DubsTech. Grouped with three other people, we designed an app that will help long distanced loved ones come together in this digital world.</p>
+      </section>
+
+      <section class="mt-5">
+        <div class="container">
+          <h2 class="text-center">Research</h2>
+          <h3 class="text-sm-center text-xl-left"> Research Methods</h3>
+          <ul>
+            <li>31 survey participants</li>
+            <li>2 one-on-one interviews</li>
+            <li>Market research and competetive analysis</li>
+          </ul>
+          <h3 class="text-sm-center text-xl-left">Findings</h3>
+          <ul>
+            <li>Participants cited lack of physical touch followed by communication issues as most frustrating aspects of long-distance relationships</li>
+            <li>Feelings of excitement, anticipation, and fun are highly important in a relationship</li>
+            <li>Common communication methods include messaging and video apps, but they often did not meet these needs or it gets repetitive easily</li>
+            <li>Common activities and topics gets repetitive quickly and participants has trouble finding new activties to do.</li>
+          </ul>
+          <figure class="figure">
+            <img src="../img/Research.PNG" alt="" class="figure-img img-fluid rounded">
+            <figcaption class="figure-caption text-center">Figure 1: a plan of our research</figcaption>
+          </figure>
+
+          <p>Despite having physical touch as the most frustrating aspects in a long-distanced relationship, we knew that it would be difficult to design a product in one day that utilizes wearable technology. Our group are inexperienced in the field of wearable technology as well. </p>
+        </div>
+      
+      </section>
+      <section class="mt-5">
+        <div class="container">
+          <h2 class="text-center">User Persona</h2>
+          <figure class="figure">
+            <img src="../img/Personas.PNG" alt="" class="figure-img img-fluid rounded">
+            <figcaption class="figure-caption text-center">Figure 2: a brainstorm for our persona</figcaption>
+          </figure>
+          <p>Our group brainstormed the characteristics for our user based on the research findings. At the very end, we all discussed and combined our ideas to make a simple, yet realistic user persona. </p>
+          
+          <h3 class="text-sm-center text-xl-left">Meet Fang</h3>
+          
+          <div class="d-sm-flex flex-sm-column align-items-sm-center justify-content-sm-center d-xl-flex flex-xl-row-reverse justify-content-xl-center align-items-xl-center">
+            <img src="../img/User1.png" alt="">
+            <div class="d-flex flex-column">
+              <ul>
+                <li>Full-time college student</li>
+                <li>Work part time as a front desk agent</li>
+                <li>Likes watching Netflix movies, cooking new recipes, and hanging out with Oslo, a three-legged husky</li>
+              </ul>
+              <p>Having been in a long distance relationship for over a year, Fang feels like there's nothing interesting to do with their partner anymore.</p>
+            </div>
+
+           
+
+            
+          </div>
+          <h4 class="text-sm-center text-xl-left">Pain Points</h4>
+          <ol>
+            <li>Lack of interesting activities to engage in with their partner</li>
+            <li>Difficult to schedule one-on-one time due to busy schedule</li>
+            <li>Not up to date with partner's current interests due to distance</li>
+          </ol>
+
+          <p><strong>As a result</strong></p>
+
+          <p>Fang feelds disconnected from their partner</p>
+
+          <p class="text-sm-center text-xl-left" id="HMW">So... how might we help Fang discover interesting activities to experience with their partner so that they can feel more connected?</p>
+      
+        </div>
+        
+      </section>
+
+      <section>
+        <div class="container mt-5">
+          <h2 class="text-center">Ideation</h2>
+          <p>Once our group knew our users and the pain points that they have, we started brainstorming about features that we can incorporate into our app. One way we did this is by using a prioritization matrix.</p>
+
+          <figure class="figure">
+            <img src="../img/prioritization-matrix.PNG" alt="" class="figure-img img-fluid rounded">
+            <figcaption class="figure-caption text-center">Figure 3: Our final prioritization matrix</figcaption>
+          </figure>
+
+          <p>There were many discussions as to how we should approach the app. Our initial discussion focused a lot on topic generators and love languages. However, we stepped back and read our "How Might We" statement again and realized that our initial idea did not properly address the pain points.</p>
+
+          <p>Then we started talking about the topic of activities. During the discussion, it was also pointed out that a prompt generator is boring and overdone, but if we were to suggest activities, it would allow for better qualitiy, fun time. People doing activities together generates topics to talk about as well, as both person would have a shared experience to relate back to.</p>
+
+          <p></p>
+        </div>
+      </section>
+
+
+
+  
+
+      
+   
+    
+  </main>
+  
+</body>
+</html>

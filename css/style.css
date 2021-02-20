@@ -1,8 +1,9 @@
 *{
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
+/* NAVBAR */ 
 nav ul{
   list-style: none;
 }
@@ -15,6 +16,8 @@ nav ul{
 
 .flex-child-nav a{
   font-size: 1.2rem;
+  color: #8357F5;
+  font-weight:600;
 }
 
 .flex-card{
@@ -67,16 +70,19 @@ h2{
 }
 
 h3{
-  font-size: 1..7rem;
+  font-size: 1.7rem;
 }
 
-
 p{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 a{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+
+li{
+  font-size: 1.1rem;
 }
 
 img{
@@ -111,7 +117,11 @@ img{
 
 }
 
-
+/* UTILITIES */
+#HMW{
+  font-weight: bold;
+  font-size: 1.1rem;
+}
 
 h1#home{
   align-self: center;
@@ -140,6 +150,13 @@ h1#home{
     margin: 10px;
   }
 
+  .container{
+    max-width: 50% !important;
+  }
+
+  .container .width-80{
+    max-width: 80%;
+  }
  
 }
 
