@@ -17,18 +17,28 @@
 </head>
 <body>
 
-  <nav>
-    <ul class="flex-container-nav ">
-      <li class="flex-child-nav m-2 mx-3"><a href="./index.html">Home</a></li>
-      <li class="flex-child-nav m-2 mx-3"><a href="./pages/about.html">About</a></li>
-    </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white mx-5">
+    <a class="navbar-brand" href="./index.html" id="logo">SAM QUIAMBAO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
 
-  <main>
+  <main class="vh-75">
     <div class="container">
       <h1 class="text-center">Sam Jemuelle Quiambao</h1>
-      <h2 class="text-center mt-3">UX/UI Designer. Theatremaker. Collaborator. </h2>
+      <h2 class="text-center mt-3">Student. UX/UI Designer. Theatremaker.</h2>
     </div>
 
     <section>
@@ -56,7 +66,7 @@
           <div class="card-body d-flex flex-column justify-content-center">
             <h3>Two Do</h3>
             <p>An app designed to help bring long-distanced loved ones come together </p>
-            <a href="./pages/two-do.html">See more</a>
+            <a href="./two-do.html">See more</a>
           </div>
         </div>
 
@@ -68,6 +78,25 @@
   
 
   </main>
+
+  <footer>
+    <div class="footer-background d-flex justify-content-around align-items-center">
+        <p class="text-white">Sam Jemuelle Quiambao. <br> Copyright &copy; 2021. All rights reserved </p> 
+       
+        <div class="d-flex flex-column align-items-start">
+          <a href="https://www.linkedin.com/in/sam-quiambao/" class="text-white">
+            <i class="fab fa-linkedin-in icons mr-2"></i>
+            LinkedIn
+          </a>
+          <br>
+          <a  href="mailto: samjquiambao@gmail.com" class="text-white">
+            <i class="far fa-envelope icons mr-2"></i>
+            Email
+          </a>
+          <a href=""></a>
+        </div>
+    </div>
+  </footer>
 
 
 
