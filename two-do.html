@@ -24,33 +24,47 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white mx-3">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html" id="logo">SAM QUIAMBAO</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./about.html">About</a>
-          </li>
-          
-        </ul>
+    <div class="container-fluid d-flex ms-5 me-5 mt-2 mb-5">
+      <div >
+        <a class="navbar-brand ml-5" href="./index.html" id="logo">SAM QUIAMBAO</a>
+      </div>
+      <div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            
+          </ul>
+        </div>
+  
     
       </div>
     </div>
   </nav>
   
+  <aside class="sidebar">
+    <ul>
+      <li><a href="#prompt">Prompt</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#ideation">Ideation</a></li>
+      <li><a href="#prototype">Prototype</a></li>
+      <li><a href="#reflection">Reflection</a></li>
+    </ul>
+  </aside>
 
   <main class="content">
       <section class="container">
         <h1 class="text-center">TWO DO</h1>
         <div class="d-flex justify-content-center mt-4">
-          <p class="mx-4"><i class="fas fa-clock mr-2"></i>24 hours</p>
-          <p class="mx-4"><i class="fas fa-users mr-2"></i>4 people</p>
+          <p class="mx-4"><i class="fas fa-clock me-2"></i>24 hours</p>
+          <p class="mx-4"><i class="fas fa-users me-2"></i>4 people</p>
         </div>
       </section>
   
@@ -58,7 +72,12 @@
         <p>Two Do is a project made during the Protothon hosted by UW DubsTech. Grouped with three other people, we designed an app that will help long distanced loved ones come together in this digital world.</p>
       </section>
 
-      <section class="mt-5">
+      <!-- LINE BREAK -->
+      <div class="d-flex justify-content-center mt-5 mb-2">
+        <div class="divider"></div>
+      </div>
+
+      <section id="prompt">
         <div class="container">
           <h2 class="text-center">The Prompt</h2>
           <h3 class="text-center text-xl-left">Valentine's Day For Couples Away</h3>
@@ -66,7 +85,12 @@
         </div>
       </section>
 
-      <section class="mt-5">
+     <!-- LINE BREAK -->
+     <div class="d-flex justify-content-center mt-5 mb-2">
+      <div class="divider"></div>
+    </div>
+
+      <section id="research">
         <div class="container">
           <h2 class="text-center">Research</h2>
           <h3 class="text-center text-xl-left"> Research Methods</h3>
@@ -134,8 +158,13 @@
         
       </section>
 
-      <section>
-        <div class="container mt-5">
+        <!-- LINE BREAK -->
+        <div class="d-flex justify-content-center mt-5 mb-2">
+          <div class="divider"></div>
+        </div>
+
+      <section id="ideation">
+        <div class="container">
           <h2 class="text-center">Ideation</h2>
           <p>Once our group knew our users and the pain points that they have, we started brainstorming about features that we can incorporate into our app.</p>
 
@@ -174,12 +203,16 @@
    
       </section>
 
-      <section>
-        <div class="container mt-5">
-          <h2 class="text-center">Design</h2>
+      <!-- LINE BREAK -->
+      <div class="d-flex justify-content-center mt-5 mb-2">
+        <div class="divider"></div>
+      </div>
+
+      <section id="prototype">
+        <div class="container">
+          <h2 class="text-center">Prototype</h2>
           
-          <p>Once we had an idea of our features, we started designing a task flow.</p>
-          <h3 class="text-center text-xl-left mt-5">Task Flow</h3>
+          <h3 class="text-center text-xl-left mt-2">Task Flow</h3>
 
           <figure class="figure">
             <img src="../img/Taskflow.PNG" alt="" class="figure-img img-fluid rounded" data-toggle="lightbox">
@@ -255,8 +288,13 @@
 
       </section>
 
-      <section>
-        <div class="container my-5">
+      <!-- LINE BREAK -->
+      <div class="d-flex justify-content-center mt-5 mb-2">
+        <div class="divider"></div>
+      </div>
+
+      <section id="reflection">
+        <div class="container mb-5">
           <h2 class="text-center">Reflection</h2>
           <p>Although we did not make it into the top three in this track, I consider this project a win for me. My first hackathon/protothon offerred a lot of learning opportunities for me. This protothon was the first time I worked in a group to design a product and it really opened my eye as to how much I have not learned yet and how much better it is to work in a group. As a student, I will apply the lessons I learned in my future projects and I will continue to learn to be a better designer.</p>
         </div>

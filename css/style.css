@@ -11,6 +11,9 @@ body{
   flex-direction: column;
 }
 
+ul {
+  list-style-type: none;
+}
 
 .flex-card{
   display: flex;
@@ -138,6 +141,18 @@ img{
   border: 0;
 }
 
+/* sidebar */
+.sidebar{
+  margin: 10vw;
+  padding: 25px;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: auto;
+  overflow: auto;
+}
+
+
 /* FOOTER */
 .footer-background{
   background-color: #404040;
@@ -152,6 +167,9 @@ img{
 
 .content{
   flex: 1 0 auto;
+  margin-left: 200px;
+  padding: 1px 16px;
+  
 }
 /* UTILITIES */
 #HMW{
@@ -174,7 +192,7 @@ h1#home{
 .divider{
   border-top: 3px solid #8357F5;
   border-radius: 5px;
-  width: 50%;
+  width: 30%;
   margin: 20px 0;
   
 }
@@ -236,5 +254,21 @@ h1#home{
     #pronouns{
       text-align: center;
     }
+}
+
+@media (max-width: 700px){
+  .sidebar{
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    position: relative;
+    margin-bottom: 0px;
+    display: none;
+    
+  }
+  .content{
+    margin-left: 0px;
+    padding: 1px 16px;
+  }
 }
 
