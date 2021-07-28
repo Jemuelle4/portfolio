@@ -5,18 +5,29 @@
 
 html, body{
   height: 100%;
+  
 }
 body{
   display: flex;
   flex-direction: column;
 }
 
+
+#logo{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  color: #8357F5;
+  color: #2978B5;
+  font-size: 1.5rem;
+}
+
+
 .bg-image-ux{
   position: relative;
   background-position: center;
   background-size: cover;
   overflow: hidden; 
-  background-image: linear-gradient(rgba(30, 30, 30, 0.75), rgba(30, 30, 30, 0.75)),url('../img/tech_edit2.png');
+  background-image: linear-gradient(rgba(30, 30, 30, 0.50), rgba(30, 30, 30, 0.5)),url('../img/tech_edit2.png');
   border-bottom:#3C3C3C 1px solid;
  
 }
@@ -37,6 +48,18 @@ body{
 .bg-image-theatre:hover{
   background-image: linear-gradient(rgba(60, 60, 60, 0.75), rgba(60, 60, 60, 0.75)),url('../img/stage_edit2.png');
   
+}
+
+.bg-image-about{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden; 
+  background-image: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30,0.5)),url('../img/about-bg.png');
+}
+
+.bg-image-about:hover{
+  background-image: linear-gradient(rgba(30, 30, 30, 0.75), rgba(60, 60, 60,0.75)),url('../img/about-bg.png');  
 }
 
 
@@ -60,6 +83,10 @@ ul {
 
 .border{
   border: 1px solid black;
+}
+
+.cmt-5{
+  margin-top: 0rem;
 }
 
 .mt-15{
@@ -216,14 +243,8 @@ h1#home{
   
 }
 
-#logo{
-  font-weight: 600;
-  color: #8357F5;
-  font-size: 1.5rem;
-}
-
-.vh-45{
-  height:40vh;
+.vh-48{
+  height:48vh;
 }
 .vh-50{
   height: 50vh;
@@ -303,6 +324,10 @@ h1#home{
       font-weight: 600;
       color: #8357F5;
       font-size: 1rem;
+    }
+
+    .cmt-5{
+      margin-top: 3rem;
     }
   
 }
