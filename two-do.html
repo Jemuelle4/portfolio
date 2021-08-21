@@ -4,63 +4,84 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
 
+ 
   <!-- BOOTSTRAP -->
-  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-  <!-- FONT -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+   <!-- FONTAWESOME -->
+ 
+   <script src="https://kit.fontawesome.com/b659826940.js" crossorigin="anonymous"></script>
+
+   <!-- GOOGLE FONTS -->
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet"> 
 
-  <!-- FONTAWESOME -->
-
-  <script src="https://kit.fontawesome.com/b659826940.js" crossorigin="anonymous"></script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"> 
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+
+ 
   
-  <title>Two Do</title>
-  <title>Document</title>
+  <title>Sam Quiambao</title>
+  <link rel="shortcut icon" type="image/jpg" href="./img/logo.png"/>
+ 
 </head>
+<!---------------------- BODY ---------------------->
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white mx-3">
-    <div class="container-fluid d-flex ms-5 me-5 mt-2 mb-5">
-      <div >
-        <a class="navbar-brand ml-5" href="./" id="logo">SAM QUIAMBAO</a>
-      </div>
-      <div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about">About</a>
-            </li>
-            
-          </ul>
-        </div>
-  
-    
+  <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+    <div class="container-fluid d-flex flex-sm-column flex-md-row  ms-5 me-5 mt-2 mb-2">
+
+      <a class="navbar-brand ml-5" href="./" id="logo"> <img src="./img/logo.png" alt="" class="img-size-logo"> Sam Quiambao</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="./">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./ux.html">UX</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./theatre.html">Theatre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./about.html">About</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
-  
-  <aside class="sidebar">
-    <ul>
-      <li><a href="#prompt">Prompt</a></li>
-      <li><a href="#research">Research</a></li>
-      <li><a href="#ideation">Ideation</a></li>
-      <li><a href="#prototype">Prototype</a></li>
-      <li><a href="#reflection">Reflection</a></li>
-    </ul>
-  </aside>
 
-  <main class="content">
-      <section class="container">
+  
+  
+  <main class="ux-body">
+    <aside class="sidebar border">
+      <ul class="list-style-sidebar">
+        <li class="list-style-sidebar"><a href="#prompt">Prompt</a></li>
+        <li class="list-style-sidebar"><a href="#research">Research</a></li>
+        <li class="list-style-sidebar"><a href="#ideation">Ideation</a></li>
+        <li class="list-style-sidebar"><a href="#prototype">Prototype</a></li>
+        <li class="list-style-sidebar"><a href="#reflection">Reflection</a></li>
+      </ul>
+    </aside>
+  
+    <div class="ux-content border">
+      <section>
         <h1 class="text-center">TWO DO</h1>
         <div class="d-flex justify-content-center mt-4">
           <p class="mx-4"><i class="fas fa-clock me-2"></i>24 hours</p>
@@ -68,257 +89,244 @@
         </div>
       </section>
   
-      <section class="container mt-5">
+      <section class="mt-5">
         <p>Two Do is a project made during the Protothon hosted by UW DubsTech. Grouped with three other people, we designed an app that will help long distanced loved ones come together in this digital world.</p>
       </section>
 
       <!-- LINE BREAK -->
-      <div class="d-flex justify-content-center mt-5 mb-2">
-        <div class="divider"></div>
-      </div>
+      <hr class="divider">
 
       <section id="prompt">
-        <div class="container">
+        <div>
           <h2 class="text-center">The Prompt</h2>
           <h3 class="text-center text-xl-left">Valentine's Day For Couples Away</h3>
           <p>Envision an experience that provides a fun engaging virtual valentine's day experience for long distance couples bringing  them close together by heart.</p>
         </div>
       </section>
 
-     <!-- LINE BREAK -->
-     <div class="d-flex justify-content-center mt-5 mb-2">
-      <div class="divider"></div>
-    </div>
+      <!-- LINE BREAK -->
+      <hr class="divider">
 
       <section id="research">
-        <div class="container">
-          <h2 class="text-center">Research</h2>
-          <h3 class="text-center text-xl-left"> Research Methods</h3>
-          <ul>
-            <li>31 survey participants</li>
-            <li>2 one-on-one interviews</li>
-            <li>Market research and competetive analysis</li>
-          </ul>
-          <h3 class="text-center text-xl-left">Findings</h3>
-          <ul>
-            <li>Participants cited lack of physical touch followed by communication issues as most frustrating aspects of long-distance relationships</li>
-            <li>Feelings of excitement, anticipation, and fun are highly important in a relationship</li>
-            <li>Common communication methods include messaging and video apps, but they often did not meet these needs or it gets repetitive easily</li>
-            <li>Common activities and topics gets repetitive quickly and participants has trouble finding new activties to do.</li>
-          </ul>
-          <figure class="figure">
-            <img src="../img/Research.PNG" alt="" class="figure-img img-fluid rounded">
-            <figcaption class="figure-caption text-center">Figure 1: a plan of our research</figcaption>
-          </figure>
+        
+        <h2 class="text-center">Research</h2>
+        <h3 class="text-center text-xl-left"> Research Methods</h3>
+        <ul>
+          <li>31 survey participants</li>
+          <li>2 one-on-one interviews</li>
+          <li>Market research and competetive analysis</li>
+        </ul>
+        <h3 class="text-center text-xl-left">Findings</h3>
+        <ul>
+          <li>Participants cited lack of physical touch followed by communication issues as most frustrating aspects of long-distance relationships</li>
+          <li>Feelings of excitement, anticipation, and fun are highly important in a relationship</li>
+          <li>Common communication methods include messaging and video apps, but they often did not meet these needs or it gets repetitive easily</li>
+          <li>Common activities and topics gets repetitive quickly and participants has trouble finding new activties to do.</li>
+        </ul>
+        <figure class="figure">
+          <img src="../img/Research.PNG" alt="" class="figure-img img-fluid rounded">
+          <figcaption class="figure-caption text-center">Figure 1: a plan of our research</figcaption>
+        </figure>
 
-          <p>Despite having physical touch as the most frustrating aspects in a long-distanced relationship, we knew that it would be difficult to design a product in one day that utilizes wearable technology. Our group are inexperienced in the field of wearable technology as well. </p>
-        </div>
+        <p>Despite having physical touch as the most frustrating aspects in a long-distanced relationship, we knew that it would be difficult to design a product in one day that utilizes wearable technology. Our group are inexperienced in the field of wearable technology as well. </p>
+      
       
       </section>
       <section class="mt-5">
-        <div class="container">
-          <h2 class="text-center">User Persona</h2>
-          <figure class="figure">
-            <img src="../img/Personas.PNG" alt="" class="figure-img img-fluid rounded">
-            <figcaption class="figure-caption text-center">Figure 2: a brainstorm for our persona</figcaption>
-          </figure>
-          <p>Our group brainstormed the characteristics for our user based on the research findings. At the very end, we all discussed and combined our ideas to make a simple, yet realistic user persona. </p>
-          
-          <h3 class="text-center text-xl-left">Meet Fang</h3>
-          
-          <div class="d-flex flex-column align-items-center justify-content-center d-xl-flex flex-xl-row-reverse justify-content-xl-center align-items-xl-center">
-            <img src="../img/User1.png" alt="">
-            <div class="d-flex flex-column">
-              <ul>
-                <li>Full-time college student</li>
-                <li>Work part time as a front desk agent</li>
-                <li>Likes watching Netflix movies, cooking new recipes, and hanging out with Oslo, a three-legged husky</li>
-              </ul>
-              <p>Having been in a long distance relationship for over a year, Fang feels like there's nothing interesting to do with their partner anymore.</p>
-            </div>
-
-           
-
-            
-          </div>
-          <h4 class="text-center text-xl-left">Pain Points</h4>
-          <ol>
-            <li>Lack of interesting activities to engage in with their partner</li>
-            <li>Difficult to schedule one-on-one time due to busy schedule</li>
-            <li>Not up to date with partner's current interests due to distance and/or time difference</li>
-          </ol>
-
-          <p><strong>As a result</strong></p>
-
-          <p>Fang feelds disconnected from their partner</p>
-
-          <p class="text-sm-center text-xl-left" id="HMW">So... how might we help Fang discover interesting activities to experience with their partner so that they can feel more connected?</p>
       
+        <h2 class="text-center">User Persona</h2>
+        <figure class="figure">
+          <img src="../img/Personas.PNG" alt="" class="figure-img img-fluid rounded">
+          <figcaption class="figure-caption text-center">Figure 2: a brainstorm for our persona</figcaption>
+        </figure>
+        <p>Our group brainstormed the characteristics for our user based on the research findings. At the very end, we all discussed and combined our ideas to make a simple, yet realistic user persona. </p>
+        
+        <h3 class="text-center text-xl-left">Meet Fang</h3>
+        
+        <div class="d-flex flex-column align-items-center justify-content-center d-xl-flex flex-xl-row-reverse justify-content-xl-center align-items-xl-center">
+          <img src="../img/User1.png" alt="">
+          <div class="d-flex flex-column">
+            <ul>
+              <li>Full-time college student</li>
+              <li>Work part time as a front desk agent</li>
+              <li>Likes watching Netflix movies, cooking new recipes, and hanging out with Oslo, a three-legged husky</li>
+            </ul>
+            <p>Having been in a long distance relationship for over a year, Fang feels like there's nothing interesting to do with their partner anymore.</p>
+          </div>
+
         </div>
+        <h4 class="text-center text-xl-left">Pain Points</h4>
+        <ol>
+          <li>Lack of interesting activities to engage in with their partner</li>
+          <li>Difficult to schedule one-on-one time due to busy schedule</li>
+          <li>Not up to date with partner's current interests due to distance and/or time difference</li>
+        </ol>
+
+        <p><strong>As a result</strong></p>
+
+        <p>Fang feelds disconnected from their partner</p>
+
+        <p class="text-sm-center text-xl-left" id="HMW">So... how might we help Fang discover interesting activities to experience with their partner so that they can feel more connected?</p>
+    
+        
         
       </section>
 
         <!-- LINE BREAK -->
-        <div class="d-flex justify-content-center mt-5 mb-2">
-          <div class="divider"></div>
-        </div>
+        <hr class="divider">
 
       <section id="ideation">
-        <div class="container">
-          <h2 class="text-center">Ideation</h2>
-          <p>Once our group knew our users and the pain points that they have, we started brainstorming about features that we can incorporate into our app.</p>
+      
+        <h2 class="text-center">Ideation</h2>
+        <p>Once our group knew our users and the pain points that they have, we started brainstorming about features that we can incorporate into our app.</p>
 
-          <p>There were many discussions as to how we should approach the app. Our initial discussion focused a lot on topic generators and love languages. However, we stepped back and read our "How Might We" statement again and realized that our initial idea did not properly address the pain points.</p>
+        <p>There were many discussions as to how we should approach the app. Our initial discussion focused a lot on topic generators and love languages. However, we stepped back and read our "How Might We" statement again and realized that our initial idea did not properly address the pain points.</p>
 
-          <p>Then we started talking about the topic of activities. During the discussion, it was also pointed out that a prompt generator is boring and overdone, but if we were to suggest activities, it would allow for better qualitiy, fun time. People doing activities together generates topics to talk about as well, as both person would have a shared experience to relate back to.</p>
+        <p>Then we started talking about the topic of activities. During the discussion, it was also pointed out that a prompt generator is boring and overdone, but if we were to suggest activities, it would allow for better qualitiy, fun time. People doing activities together generates topics to talk about as well, as both person would have a shared experience to relate back to.</p>
 
-          <p>With a clear focus, we started ideating using a prioritization matrix. Since we only had a day to design, we prioritized adding more high value, low effort features into our app.</p>
+        <p>With a clear focus, we started ideating using a prioritization matrix. Since we only had a day to design, we prioritized adding more high value, low effort features into our app.</p>
 
-          <figure class="figure">
-            <img src="../img/prioritization-matrix.PNG" alt="" class="figure-img img-fluid rounded" data-toggle="lightbox">
-            <figcaption class="figure-caption text-center">Figure 3: Our final prioritization matrix</figcaption>
-          </figure>
+        <figure class="figure">
+          <img src="../img/prioritization-matrix.PNG" alt="" class="figure-img img-fluid rounded" data-toggle="lightbox">
+          <figcaption class="figure-caption text-center">Figure 3: Our final prioritization matrix</figcaption>
+        </figure>
 
-          <h3 class="text-center text-xl-left">Features</h3>
-          <h4 class="text-center text-xl-left">Main</h4>
-          <ul>
-            <li>Massive supplies of activities to show users</li>
-            <li>Asynchronous browsing and planning</li>
-            <li>Matching system</li>
-            
-          </ul>
-          <h4 class="text-center text-xl-left">Secondary</h4>
-          <ul>
-            <li>Activity indicators (time, cost, difficulty)</li>
-            <li>Account system and user profiles</li>
-            <li>Supports usage with different relationships (friends, family)</li>
-            <li>Personalized themes/categories to reflect user's interests</li>  
-
-          </ul>
-
-          <p>Although the prompt is focused on Valentine's Day and long distance couples, we saw the potential and increased the app's scope to work even after Valentine's Day and to work for other types of relationships other than romantic ones.</p>
-
-        </div>
-
-   
-      </section>
-
-      <!-- LINE BREAK -->
-      <div class="d-flex justify-content-center mt-5 mb-2">
-        <div class="divider"></div>
-      </div>
-
-      <section id="prototype">
-        <div class="container">
-          <h2 class="text-center">Prototype</h2>
+        <h3 class="text-center text-xl-left">Features</h3>
+        <h4 class="text-center text-xl-left">Main</h4>
+        <ul>
+          <li>Massive supplies of activities to show users</li>
+          <li>Asynchronous browsing and planning</li>
+          <li>Matching system</li>
           
-          <h3 class="text-center text-xl-left mt-2">Task Flow</h3>
+        </ul>
+        <h4 class="text-center text-xl-left">Secondary</h4>
+        <ul>
+          <li>Activity indicators (time, cost, difficulty)</li>
+          <li>Account system and user profiles</li>
+          <li>Supports usage with different relationships (friends, family)</li>
+          <li>Personalized themes/categories to reflect user's interests</li>  
 
-          <figure class="figure">
-            <img src="../img/Taskflow.PNG" alt="" class="figure-img img-fluid rounded" data-toggle="lightbox">
-            <figcaption class="figure-caption text-center">Figure 4: Our initial task flow</figcaption>
-          </figure>
+        </ul>
 
-          <figure class="figure">
-            <img src="../img/Taskflow-2.PNG" alt="" class="figure-img img-fluid rounded" data-toggle="lightbox">
-            <figcaption class="figure-caption text-center">Figure 5: A low fidelity prototype focused on the task flow</figcaption>
-          </figure>
-
-          <p>One important feature of this app is to ensure a way to interact without needing to sign up. We extensively discussed how users in general find it frustrating to sign up to a lot of applications without knowing how the app works first. Therefore, we wanted to provide a way so that the users can use the app without an account; asking them to sign up only after they are confident with the app and unlock additional features.</p>
-          
-          <p>This feature guided how we want the task flow to go.</p>
-
-          
-
-          <h3 class="text-center text-xl-left mt-5">Mid Fidelity Prototype</h3>
-
-          <figure class="figure">
-            <img src="../img/mid-fidelity.PNG" alt="" class="figure-img img-fluid rounded" data-toggle="lightbox">
-            <figcaption class="figure-caption text-center">Figure 6: A mid fidelity of our app</figcaption>
-          </figure>
-
-          <p>We had a lengthy discussion as to how the users will choose their activities and opted to go with the all-familiar motion of swiping left or right (with a visual guidance to assist people who are not familiar with the event). With our main features, we aimed to address our three pain points. </p>
-
-          <p> <strong>Pain point #1:</strong>  <br> Lack of interesting activties to engage in with partner</p>
-          <p> <strong>Our Feature:</strong> <br>Our app's seemingly endless supply of fun activities means that users will never run out of things to do. After each swipe, a new activity will be generated. </p> 
-
-          <p> <strong>Pain point #2:</strong>  <br> Difficult to schedule one-on-one time due to busy schedule</p>
-          <p> <strong>Our Feature:</strong> <br> Our app is asynchronous which means the user can browse activities separately so they can enjoy them later, together with their loved ones.</p>
-
-          <p> <strong>Pain point #3:</strong>  <br> Not up to date with partner's current interests due to distance and/or time difference</p>
-          <p> <strong>Our Feature:</strong> <br> Our app's activity matching system allows the users to be on the same page with interests. If they both match, the activity is saved in their Two-Do list for later. </p>
-
-          <h3 class="text-center text-xl-left mt-5">Branding</h3>
-          <p>Our vision for Two Do is something that is:</p>
-          <ul>
-            <li>Playful</li>
-            <li>Fun</li>
-            <li>Friendly</li>
-            <li>Exciting</li>
-
-          </ul>
-
-          <p>This is reflected by:</p>
-          <ul>
-            <li>Simple, easy to read typography</li>
-            <li>Warm, inviting color palette</li>
-            <li>Rounded corners in our icons</li>
-            <li>Modern 2D illustrations</li>
-          </ul>
-          <div class="d-flex justify-content-center">
-            <figure class="figure">
-              <img src="../img/style-guide.PNG" alt="" class="figure-img img-fluid rounded" data-toggle="lightbox">
-              <figcaption class="figure-caption text-center">Figure 7: Our branding and style guide for the app</figcaption>
-            </figure>
-          </div>
-          
-
-          <h3 class="text-center text-xl-left mt-5">High Fidelity Prototype</h3>
-          <p></p>
-
-          <div class="responsive-container">
-            <iframe class="responsive-iframe" style="border: 1px solid rgba(0, 0, 0, 0.1);"  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEtGZxdNsRB9np7UitKLNOJ%2FTwo-Do-App%3Fnode-id%3D2%253A804%26scaling%3Dscale-down" allowfullscreen></iframe>
-          </div>
-          
-
-
-
-        </div>
-
-
-      </section>
-
-      <!-- LINE BREAK -->
-      <div class="d-flex justify-content-center mt-5 mb-2">
-        <div class="divider"></div>
-      </div>
-
-      <section id="reflection">
-        <div class="container mb-5">
-          <h2 class="text-center">Reflection</h2>
-          <p>Although we did not make it into the top three in this track, I consider this project a win for me. My first hackathon/protothon offerred a lot of learning opportunities for me. This protothon was the first time I worked in a group to design a product and it really opened my eye as to how much I have not learned yet and how much better it is to work in a group. As a student, I will apply the lessons I learned in my future projects and I will continue to learn to be a better designer.</p>
-        </div>
-      </section>
+        <p>Although the prompt is focused on Valentine's Day and long distance couples, we saw the potential and increased the app's scope to work even after Valentine's Day and to work for other types of relationships other than romantic ones.</p>
 
     
+
+    
+      </section>
+
+      <!-- LINE BREAK -->
+      <hr class="divider">
+
+      <section id="prototype">
+      
+        <h2 class="text-center">Prototype</h2>
+        
+        <h3 class="text-center text-xl-left mt-2">Task Flow</h3>
+
+        <figure class="figure">
+          <img src="../img/Taskflow.PNG" alt="" class="figure-img img-fluid rounded" data-toggle="lightbox">
+          <figcaption class="figure-caption text-center">Figure 4: Our initial task flow</figcaption>
+        </figure>
+
+        <figure class="figure">
+          <img src="../img/Taskflow-2.PNG" alt="" class="figure-img img-fluid rounded" data-toggle="lightbox">
+          <figcaption class="figure-caption text-center">Figure 5: A low fidelity prototype focused on the task flow</figcaption>
+        </figure>
+
+        <p>One important feature of this app is to ensure a way to interact without needing to sign up. We extensively discussed how users in general find it frustrating to sign up to a lot of applications without knowing how the app works first. Therefore, we wanted to provide a way so that the users can use the app without an account; asking them to sign up only after they are confident with the app and unlock additional features.</p>
+        
+        <p>This feature guided how we want the task flow to go.</p>
+
+        
+
+        <h3 class="text-center text-xl-left mt-5">Mid Fidelity Prototype</h3>
+
+        <figure class="figure">
+          <img src="../img/mid-fidelity.PNG" alt="" class="figure-img img-fluid rounded" data-toggle="lightbox">
+          <figcaption class="figure-caption text-center">Figure 6: A mid fidelity of our app</figcaption>
+        </figure>
+
+        <p>We had a lengthy discussion as to how the users will choose their activities and opted to go with the all-familiar motion of swiping left or right (with a visual guidance to assist people who are not familiar with the event). With our main features, we aimed to address our three pain points. </p>
+
+        <p> <strong>Pain point #1:</strong>  <br> Lack of interesting activties to engage in with partner</p>
+        <p> <strong>Our Feature:</strong> <br>Our app's seemingly endless supply of fun activities means that users will never run out of things to do. After each swipe, a new activity will be generated. </p> 
+
+        <p> <strong>Pain point #2:</strong>  <br> Difficult to schedule one-on-one time due to busy schedule</p>
+        <p> <strong>Our Feature:</strong> <br> Our app is asynchronous which means the user can browse activities separately so they can enjoy them later, together with their loved ones.</p>
+
+        <p> <strong>Pain point #3:</strong>  <br> Not up to date with partner's current interests due to distance and/or time difference</p>
+        <p> <strong>Our Feature:</strong> <br> Our app's activity matching system allows the users to be on the same page with interests. If they both match, the activity is saved in their Two-Do list for later. </p>
+
+        <h3 class="text-center text-xl-left mt-5">Branding</h3>
+        <p>Our vision for Two Do is something that is:</p>
+        <ul>
+          <li>Playful</li>
+          <li>Fun</li>
+          <li>Friendly</li>
+          <li>Exciting</li>
+
+        </ul>
+
+        <p>This is reflected by:</p>
+        <ul>
+          <li>Simple, easy to read typography</li>
+          <li>Warm, inviting color palette</li>
+          <li>Rounded corners in our icons</li>
+          <li>Modern 2D illustrations</li>
+        </ul>
+        <div class="d-flex justify-content-center">
+          <figure class="figure">
+            <img src="../img/style-guide.PNG" alt="" class="figure-img img-fluid rounded" data-toggle="lightbox">
+            <figcaption class="figure-caption text-center">Figure 7: Our branding and style guide for the app</figcaption>
+          </figure>
+        </div>
+        
+
+        <h3 class="text-center text-xl-left mt-5">High Fidelity Prototype</h3>
+        <p></p>
+
+        <div class="responsive-container">
+          <iframe class="responsive-iframe" style="border: 1px solid rgba(0, 0, 0, 0.1);"  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEtGZxdNsRB9np7UitKLNOJ%2FTwo-Do-App%3Fnode-id%3D2%253A804%26scaling%3Dscale-down" allowfullscreen></iframe>
+        </div>
+
+      </section>
+
+      <!-- LINE BREAK -->
+      <hr class="divider">
+
+      <section id="reflection">
+        
+        <h2 class="text-center">Reflection</h2>
+        <p>Although we did not make it into the top three in this track, I consider this project a win for me. My first hackathon/protothon offerred a lot of learning opportunities for me. This protothon was the first time I worked in a group to design a product and it really opened my eye as to how much I have not learned yet and how much better it is to work in a group. As a student, I will apply the lessons I learned in my future projects and I will continue to learn to be a better designer.</p>
+      
+      </section>
+  
+      
+    </div>
   </main>
   
-  <footer class="footer">
-    <div class="footer-background d-flex justify-content-around align-items-center">
-        <p class="text-white">Sam Jemuelle Quiambao. <br> Copyright &copy; 2021. All rights reserved </p> 
+  
+  <footer class="mt-auto">
+    <div class="footer-background d-flex flex-column-reverse flex-md-row justify-content-around align-items-center">
+      <div class="mt-5 mb-3 p-2">
+        <p class="text-white text-center text-md-start text-small">Sam Jemuelle Quiambao. <br> Copyright &copy; 2021. All rights reserved </p> 
+      </div>
+     
        
-        <div class="d-flex flex-column align-items-start">
-          <a href="https://www.linkedin.com/in/sam-quiambao/" class="text-white">
-            <i class="fab fa-linkedin-in icons mr-2"></i>
-            LinkedIn
-          </a>
-          <br>
-          <a  href="mailto: samjquiambao@gmail.com" class="text-white">
-            <i class="far fa-envelope icons mr-2"></i>
-            Email
-          </a>
-          <a href=""></a>
-        </div>
+      <div class="d-flex flex-column align-items-start justify-content-center mt-5 mb-2 p-2">
+        <a href="https://www.linkedin.com/in/sam-quiambao/" class="text-white mx-5">
+          <i class="fab fa-linkedin-in icons me-2"></i>
+          LinkedIn
+        </a>
+        <br>
+        <a  href="mailto: samjquiambao@gmail.com" class="text-white mx-5">
+          <i class="far fa-envelope icons me-2"></i>
+          Email
+        </a>
+     
+      </div>
+
     </div>
   </footer>
 
