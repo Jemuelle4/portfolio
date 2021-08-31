@@ -5,30 +5,8 @@
     float: right;
     margin-left: 10px;
   }
-
-
- 
 }
  
-@media (max-width: 576px){
-  .general-image{
-    margin-bottom: 1em;
-    display: block;
-    text-align: center;
-    }
-    #pronouns{
-      text-align: center;
-    }
-
-    .text-size-big{
-      font-size: 2rem;
-    }
-
-    .cmt-5{
-      margin-top: 3rem;
-    }
-  
-}
 
 @media (min-width: 768px){
   .ux-body{
@@ -37,28 +15,28 @@
     
   }
   
-  .ux-content{
+  .page-content{
     flex: 3 3 auto;
-    margin: 75px 5rem;
-    max-width: 55vw;
+    margin: 0rem 5rem;
+    max-width: 60vw;
     padding: 1px 16px;
-    
   }
+
   .sidebar{
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1 1 auto;
-    max-width: 25rem;
-    height: 20rem;
-    margin: 75px 40px;
+    max-width: 20rem;
+    height: 25rem;
+    margin: 5.5rem 40px;
     padding: 25px;
     position: -webkit-sticky;
     position: sticky;
-    top: 75px;
+    top: 5.5rem;
+    border: 1px solid #2571C9;
    
   }
-  
   .list-style-sidebar{
     list-style-type: none;
     margin: 10px 0px;
@@ -80,38 +58,52 @@
   }
 
   .container{
-    max-width: 55% !important;
+    max-width: 60vw !important;
   }
 
-  .container .width-80{
-    max-width: 80%;
+  /* FOOTER */
+  .footer-container{
+    flex-direction: row;
+  }
+
+  .footer-links{
+    margin: 4.5rem;
+  }
+
+  .footer-text-container{
+    margin: 4.5rem;
   }
 }
 
 
 @media (min-width: 1025px){
 
-  .ux-content{
-    flex: 3 3 auto;
-    margin: 75px 5rem;
-    max-width: 40vw;
-    padding: 1px 16px;
-    
-  
-    
+  .page-content{
+    max-width: 50vw;
   }
+
   .sidebar{
-    display: block;
-    flex: 1 1 auto;
     max-width: 20rem;
-    height: 25rem;
-    margin: 75px 40px;
-    padding: 25px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 75px;
-   
+  }
+
+  .container{
+    max-width: 50vw !important;
   }
 }
 
+
+@media (min-width: 1201px){
+
+  .page-content{
+    max-width: 40vw; 
+  }
+
+  .sidebar{
+    max-width: 20rem;
+  }
+
+  .container{
+    max-width: 40vw !important;
+  }
+}
 
