@@ -18,6 +18,10 @@ body{
   margin: 0px;
 }
 
+.no-margin-bottom{
+  margin-bottom: 0px;
+}
+
 .margin-b-md{
   margin-bottom: 100px;
 }
